@@ -4,12 +4,23 @@ import config from '../config/index.json';
 
 const MainHero = () => {
   const { mainHero } = config;
+
   return (
-    <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
+    <main
+      id="main-hero"
+      className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28"
+    >
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
-          <span className="block xl:inline">{mainHero.title}</span>{' '}
-          <span className={`block text-primary xl:inline`}>
+          <span className="block xl:inline">Atlantic</span>
+          <br className="sm:block hidden" />
+          <span className="block xl:inline">Emergency</span>
+          <br className="sm:block hidden" />
+          <span className="block xl:inline">Research</span>
+          <br className="sm:block hidden" />
+          <span className="block xl:inline">Organization</span>
+          <br className="sm:block hidden" />
+          <span className="block text-red-600 xl:inline">
             {mainHero.subtitle}
           </span>
         </h1>

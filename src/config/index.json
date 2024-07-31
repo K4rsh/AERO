@@ -1,25 +1,28 @@
 {
   "company": {
-    "name": "React landing page 2021",
-    "logo": "/assets/images/logo.png"
+    "name": "Atlantic Emergency Research Organization (AERO)",
+    "logo": "/assets/images/logo1.png"
   },
   "navigation": [
     {
-      "name": "Product",
-      "href": "product"
+      "name": "Home",
+      "href": "home"
     },
     {
-      "name": "Features",
-      "href": "features"
-    },
-
-    {
-      "name": "Pricing",
-      "href": "pricing"
+      "name": "Vision",
+      "href": "vision"
     },
     {
-      "name": "About",
-      "href": "about"
+      "name": "Roles & Responsibilities",
+      "href": "rolesresp"
+    },
+    {
+      "name": "Members",
+      "href": "members-list"
+    },
+    {
+      "name": "Contact",
+      "href": "contact"
     }
   ],
   "callToAction": {
@@ -27,127 +30,79 @@
     "href": "#"
   },
   "mainHero": {
-    "title": "Use me as your",
-    "subtitle": "landing page.",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "img": "/assets/images/happyTeam.jpeg",
+    "title": "Atlantic Emergency Research Organization (AERO)",
+    "subtitle": "Improving Health in Atlantic Canada",
+    "description": "The Atlantic Emergency Research Organization connects Emergency Medicine faculty and researchers from Memorial University and Dalhousie University as they strive to use research to improve the health and well-being of patients in Atlantic Canada.",
+    "img": "/assets/images/happyTeam2.jpeg",
     "primaryAction": {
       "text": "Get started",
       "href": "#"
     },
     "secondaryAction": {
       "text": "Email us",
-      "href": "mailto:issaafakattan@gmail.com?subject=I like react landing page!"
+      "href": "mailto:r06gas@mun.ca?subject= Report: AERO Website"
     }
   },
   "product": {
-    "title": "React landing page 2021",
+    "title": "Our Vision",
+    "description": "Despite being close together in geography, the oceans between the Atlantic provinces can seem wide. With the advancement and ease of virtual meetings necessitated by the COVID-19 pandemic, we realized that the geographic distance between us was no longer a barrier to collaborate on research.",
     "items": [
       {
-        "title": "A plug n play template",
-        "description": "Just edit the config.json file with details about your company and voila your beautiful state of the art landing page is ready to go live! Remember to also update your assets, add any images you want to show to /assets/images and link them in the config.json",
-        "img": "/assets/images/product1.jpg"
+        "title": "To create new knowledge through research in Atlantic Canada",
+        "description": ""
       },
       {
-        "title": "Make it your own!",
-        "description": "Play around with the theme.ts file and configure the color palette to match the branding of your company! If you're feeling wild, maybe change some tailwind css as well!",
-        "img": "/assets/images/product2.jpg"
-      }
-    ]
-  },
-  "features": {
-    "title": "Latest & greatest ",
-    "subtitle": "All the best technologies out there!",
-    "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
-    "items": [
-      {
-        "name": "React.js",
-        "description": "React is a free and open-source front-end JavaScript library for building user interfaces or UI components.",
-        "icon": "/assets/images/react.png"
+        "title": "To foster collaboration amongst researchers in Atlantic Canada",
+        "description": ""
       },
       {
-        "name": "Tailwind",
-        "description": "Tailwind CSS is a highly customizable, low-level CSS framework for quickly creating beautiful designs without any annoying opinionated stylesheet nonsense.",
-        "icon": "/assets/images/tailwindcss.svg"
+        "title": "To promote research in emergency medicine in Atlantic Canada",
+        "description": ""
       },
       {
-        "name": "Next.js",
-        "description": "Next.js is a framework for server-rendered React applications using Next.js.",
-        "icon": "/assets/images/nextjs.svg"
-      },
-      {
-        "name": "Typescript",
-        "description": "TypeScript is a programming language developed and maintained by Microsoft.",
-        "icon": "/assets/images/ts.png"
+        "title": "To mentor medical students, residents, paramedics, graduate students, clinical and post-doctoral fellows, and early career physicians in developing research projects",
+        "description": ""
       }
     ]
   },
   "pricing": {
-    "title": "Pricing",
+    "title": "Expenses",
     "items": [
       {
-        "name": "Free",
-        "price": "$0",
-        "priceDetails": "for one user",
-        "features": [
-          "1 user",
-          "Basic Support",
-          "1 GB of storage",
-          "Email support"
-        ]
-      },
-      {
-        "name": "Pro",
-        "price": "$15",
-        "priceDetails": "per user",
-
-        "features": [
-          "5 users",
-          "Priority Support",
-          "10 GB of storage",
-          "Phone and Email support"
-        ]
-      },
-      {
-        "name": "Enterprise",
-        "price": "$29",
-        "priceDetails": "per user",
-        "features": [
-          "50 users",
-          "24/7 Support",
-          "100 GB of storage",
-          "Phone and Email support"
-        ]
+        "name": "To be determined",
+        "price": "TBD",
+        "priceDetails": "Expenses are currently being determined."
       }
     ]
   },
-  "about": {
-    "sections": [
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      },
-      {
-        "name": "Something",
-        "href": "#",
-        "content": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English."
-      }
-    ],
-    "socialMedia": {
-      "github": "https://github.com/issaafalkattan",
-      "twitter": "https://twitter.com/issaafkattan",
-      "linkedin": "https://www.linkedin.com/in/issaaf-kattan/"
+  "reporting": {
+    "title": "Reporting / Communication",
+    "description": "Minutes will be distributed after each meeting. A slack channel for AERO will be used as a form of ongoing communication. Dropbox folder will be used to maintain records for AERO."
+  },
+  "decisionMaking": {
+    "title": "Decision Making",
+    "description": "At least 50% of members must agree for a decision to move forward. Minutes must be approved by two members; this can be done in person or virtually."
+  },
+  "additionalInfo": {
+    "contactInformation": "xyz@mun.ca",
+    "academicBio": "academic bio here",
+    "links": {
+      "academicDepartments": "Your link to academic departments here",
+      "logoDevelopment": "Your link to logo development here",
+      "groupEmail": "Your group email here",
+      "invitationToJoin": "Your invitation to join in research here",
+      "sixForSix": "https://www.mun.ca/medicine/familymedicine/for-faculty/six-for-six/",
+      "engagePeopleInResearch": "Your link to engage people in research here",
+      "researchIdea": "Your link for research idea here",
+      "openMeeting": "Your link for open meeting / network to support research here",
+      "munEmergencyMedicine": "https://www.mun.ca/medicine/emergencymedicine/",
+      "munResearchWebsite": "https://www.mun.ca/medicine/emergencymedicine/research/",
+      "munWebpage": "https://www.mun.ca/medicine/faculty-and-staff-resources/faculty-a-z/sheppard-gillian.php",
+      "dalEmergencyMedicine": "https://medicine.dal.ca/departments/department-sites/emergency.html",
+      "stJohnRegionalHospital": "https://sjrhem.ca",
+      "peiEmergencyDepartment": "https://www.princeedwardisland.ca/en/information/health-pei/emergency-department-wait-times",
+      "iwkEmergencyMedicine": "https://dalemerg.medicine.dal.ca/research/iwk/",
+      "iwkHospitalEM": "https://iwkhealth.ca/clinics-programs-services/emergency-department"
     }
   }
 }
