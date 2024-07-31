@@ -20,19 +20,13 @@ const About = () => {
             <a
               key={`${navItem.name}-${index}`}
               href={`#${navItem.href}`} // Use href as ID for in-page navigation
-              className="hover:text-primary text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white"
+              className="text-base cursor-pointer leading-4 text-gray-800 dark:text-gray-400 dark:hover:text-white hover:text-red-600 hover:text-lg transition-all duration-200"
             >
               {navItem.name}
             </a>
           ))}
         </div>
-        <div className="flex items-center gap-x-8 mt-6 h-8">
-          {/* Social media links can be added here */}
-        </div>
-        {/* <div className="mt-6">
-          <h2 className="text-2xl font-bold">{mainHero.title}</h2>
-          <p className="mt-4">{mainHero.description}</p>
-        </div> */}
+        <div className="flex items-center gap-x-8 mt-6 h-8"></div>
       </div>
     </div>
   );

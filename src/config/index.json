@@ -25,10 +25,6 @@
       "href": "contact"
     }
   ],
-  "callToAction": {
-    "text": "Get started",
-    "href": "#"
-  },
   "mainHero": {
     "title": "Atlantic Emergency Research Organization (AERO)",
     "subtitle": "Improving Health in Atlantic Canada",
@@ -36,7 +32,7 @@
     "img": "/assets/images/happyTeam2.jpeg",
     "primaryAction": {
       "text": "Get started",
-      "href": "#"
+      "href": "#vision"
     },
     "secondaryAction": {
       "text": "Email us",
@@ -84,25 +80,15 @@
     "description": "At least 50% of members must agree for a decision to move forward. Minutes must be approved by two members; this can be done in person or virtually."
   },
   "additionalInfo": {
-    "contactInformation": "xyz@mun.ca",
-    "academicBio": "academic bio here",
+    "contactInformation": "r06gas@mun.ca",
     "links": {
-      "academicDepartments": "Your link to academic departments here",
-      "logoDevelopment": "Your link to logo development here",
-      "groupEmail": "Your group email here",
-      "invitationToJoin": "Your invitation to join in research here",
-      "sixForSix": "https://www.mun.ca/medicine/familymedicine/for-faculty/six-for-six/",
-      "engagePeopleInResearch": "Your link to engage people in research here",
-      "researchIdea": "Your link for research idea here",
-      "openMeeting": "Your link for open meeting / network to support research here",
-      "munEmergencyMedicine": "https://www.mun.ca/medicine/emergencymedicine/",
-      "munResearchWebsite": "https://www.mun.ca/medicine/emergencymedicine/research/",
-      "munWebpage": "https://www.mun.ca/medicine/faculty-and-staff-resources/faculty-a-z/sheppard-gillian.php",
-      "dalEmergencyMedicine": "https://medicine.dal.ca/departments/department-sites/emergency.html",
-      "stJohnRegionalHospital": "https://sjrhem.ca",
-      "peiEmergencyDepartment": "https://www.princeedwardisland.ca/en/information/health-pei/emergency-department-wait-times",
-      "iwkEmergencyMedicine": "https://dalemerg.medicine.dal.ca/research/iwk/",
-      "iwkHospitalEM": "https://iwkhealth.ca/clinics-programs-services/emergency-department"
+      "SixForSix": "https://www.mun.ca/medicine/familymedicine/for-faculty/six-for-six/",
+      "MUN Department of Emergency Medicine": "https://www.mun.ca/medicine/emergencymedicine/",
+
+      "Dalhousie University Department of Emergency Medicine": "https://medicine.dal.ca/departments/department-sites/emergency.html",
+      "St. John's Regional Hospital": "https://sjrhem.ca",
+      "PEI Department of Emergency Medicine": "https://www.princeedwardisland.ca/en/information/health-pei/emergency-department-wait-times",
+      "IWK Department of Emergency Medicine": "https://iwkhealth.ca/clinics-programs-services/emergency-department"
     }
   }
 }

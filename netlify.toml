@@ -1,19 +1,16 @@
 [build]
+  # The command that Netlify will use to build your site
   command = "npm run build"
-  publish = "dist"
+
+  # Directory to deploy
+  publish = ".next"
 
 [build.environment]
-  NODE_VERSION = "14"
-
-[build.processing]
-  # Add any build processing options here
+  # Environment variables for the build process
+  NODE_VERSION = "16" # or the version of Node.js you are using
 
 [[redirects]]
+  # Redirects configuration (if needed)
   from = "/*"
   to = "/index.html"
   status = 200
-
-[[headers]]
-  for = "/*"
-  [headers.values]
-    Access-Control-Allow-Origin = "*"

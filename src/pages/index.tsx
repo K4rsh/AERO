@@ -2,12 +2,13 @@ import React from 'react';
 
 import About from '../components/About';
 import Canvas from '../components/Canvas';
+import Contact from '../components/Contact';
 import Header from '../components/Header';
 import LazyShow from '../components/LazyShow';
 import MainHero from '../components/MainHero';
 import MainHeroImage from '../components/MainHeroImage';
 import { MembersList } from '../components/MemberCard';
-import RolesAndResponsibilties from '../components/RolesAndResponsibilities';
+import RolesAndResponsibilities from '../components/RolesAndResponsibilities';
 import Vision from '../components/Vision';
 
 const App = () => {
@@ -38,20 +39,8 @@ const App = () => {
       </LazyShow>
 
       <LazyShow>
-        <section id="canvas">
-          <Canvas />
-        </section>
-      </LazyShow>
-
-      <LazyShow>
         <section id="roles-and-responsibilities">
-          <RolesAndResponsibilties />
-        </section>
-      </LazyShow>
-
-      <LazyShow>
-        <section id="canvas">
-          <Canvas />
+          <RolesAndResponsibilities />
         </section>
       </LazyShow>
 
@@ -65,10 +54,14 @@ const App = () => {
           </div>
         </section>
       </LazyShow>
-
       <LazyShow>
         <section id="canvas">
           <Canvas />
+        </section>
+      </LazyShow>
+      <LazyShow>
+        <section id="contact">
+          <Contact />
         </section>
       </LazyShow>
 
