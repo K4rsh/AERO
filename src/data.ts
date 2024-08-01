@@ -46,9 +46,12 @@ export const members = [
   {
     name: 'Dr. Samuel G Campbell MB BCh CCFP(EM) FCFP Dip PEC(SA) FCCHL FRCP(Edin)',
     headshot: '/assets/Headshots/DrSamCampbell.jpg',
-    about: '',
+    about:
+      'Dr. Samuel G Campbell is an experienced emergency physician with multiple qualifications and a broad range of expertise. He is a Professor of Emergency Medicine at Dalhousie University, Halifax NS, and the Research Director at the Charles V Keating Emergency and Trauma Centre. Dr. Campbell also serves as the Chair of the Choosing Wisely Committee for the Canadian Association of Emergency Physicians. More information about Dr. Campbell can be found at this [link].',
+    link: 'https://medicine.dal.ca/departments/department-sites/emergency/our-people/faculty/FacultyHalifaxInfirmary/campbell.html',
     publications: [],
-  },
+  }
+  ,
   {
     name: 'Dr. Michael Parsons BSc MD FCFP(EM)',
     headshot: '/assets/Headshots/DrMikeParsons.jpg',
