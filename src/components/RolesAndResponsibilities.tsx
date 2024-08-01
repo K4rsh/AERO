@@ -2,7 +2,7 @@ import React from 'react';
 
 const CommitteeChairInfo = () => {
   return (
-    <div id="rolesresp" className="bg-background py-12 sm:py-16 lg:py-24">
+    <div id="rolesresp" className="bg-gray-50 py-12 sm:py-16 lg:py-24">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-left">
           <h1 className="text-3xl font-extrabold text-red-600 mb-8 text-center">
