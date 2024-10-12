@@ -5,8 +5,7 @@ export const members = [
     about:
       'Dr. Gillian Sheppard is an Associate Professor of Emergency Medicine at Memorial University of Newfoundland and an Emergency Physician in St. John’s, NL. She is cross appointed to the Discipline of Pediatrics. Her research interests include point of care ultrasound, medical education, pediatric emergency medicine and equity, diversity and inclusion with a special interest in gender.',
     publications: [
-      'Liu, J., Boucher, C., Sheppard, G. et al. Trauma and violence informed perspectives on the transabdominal pelvic point-of-care ultrasound. Can J Emerg Med (2024). https://doi.org/10.1007/s43678-024-00674-8',
-      'Maxwell E, Sheppard G, Yi Y. A survey of undergraduate medical students’ knowledge and attitudes about gender bias: the Newfoundland and Labrador perspective. Can. Med. Ed. J [Internet]. 2024 Jan. 30 [cited 2024 Mar. 12];15(1):48-55. Available from: https://journalhosting.ucalgary.ca/index.php/cmej/article/view/75919',
+      'Liu, J., Boucher, C., Sheppard, G. et al. Trauma and violence informed perspectives on the transabdominal pelvic point-of-care ultrasound. Can J Emerg Med (2024). https://doi.org/10.1007/s43678-024-00674-8','Maxwell E, Sheppard G, Yi Y. A survey of undergraduate medical students’ knowledge and attitudes about gender bias: the Newfoundland and Labrador perspective. Can Med Educ J. 2021;12(6):e97-e106. doi:10.36834/cmej.70093 Can. Med. Ed. J. 2024 Jan. 30. ',
     ],
   },
   {

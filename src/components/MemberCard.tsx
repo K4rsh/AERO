@@ -24,25 +24,29 @@ export const MemberCard: React.FC<{ member: Member }> = ({ member }) => {
       );
       return (
         <p
-          className="text-md text-gray-600 mt-2"
+          className="text-md text-gray-600 mt-2 overflow-hidden overflow-ellipsis line-clamp-3" // Limit to 3 lines
           dangerouslySetInnerHTML={{ __html: aboutWithLink }}
         />
       );
     }
-    return <p className="text-md text-gray-600 mt-2">{member.about}</p>;
+    return (
+      <p className="text-md text-gray-600 mt-2 overflow-hidden overflow-ellipsis line-clamp-3">
+        {member.about}
+      </p>
+    );
   };
 
   return (
-    <div className="m-4 flex flex-col items-center bg-white rounded-lg overflow-hidden shadow-lg w-full max-w-xs"> {/* Adjusted for responsiveness */}
+    <div className="m-4 flex flex-col items-center bg-white rounded-lg overflow-hidden shadow-lg w-full max-w-xs">
       <img
         src={member.headshot}
         alt={member.name}
         className="w-full h-64 object-cover" // Adjusted to cover the top part of the card fully
       />
-      <div className="p-6">
+      <div className="p-4"> {/* Reduced padding for better spacing */}
         <h2 className="text-2xl font-semibold text-gray-800">{member.name}</h2>
         {renderAboutText()}
-        <ul className="mt-4">
+        <ul className="mt-4 space-y-1"> {/* Added space between publications */}
           {member.publications.map((publication, index) => (
             <li key={index} className="text-md text-gray-600">
               {publication}
