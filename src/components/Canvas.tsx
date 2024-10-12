@@ -7,9 +7,7 @@ import useResponsiveSize from '../hooks/useResponsiveSize';
 const Canvas: FC = () => {
   const canvasRef = useRef<HTMLCanvasElement>(null);
   const { width } = useResponsiveSize();
-  const [context, setContext] = useState<
-    CanvasRenderingContext2D | undefined
-  >();
+  const [context, setContext] = useState<CanvasRenderingContext2D | undefined>();
 
   useEffect(() => {
     const ctx = canvasRef?.current?.getContext('2d');
@@ -17,12 +15,18 @@ const Canvas: FC = () => {
   }, []);
 
   return (
-    <>
-      <CanvasContext.Provider value={{ context }}>
-        <canvas id="canvas" ref={canvasRef} width={width} height={220}></canvas>
+    <CanvasContext.Provider value={{ context }}>
+      <div className="w-full overflow-hidden">
+        <canvas
+          id="canvas"
+          ref={canvasRef}
+          width={width}
+          height={220}
+          className="block mx-auto" // Center the canvas
+        ></canvas>
         <Wave />
-      </CanvasContext.Provider>
-    </>
+      </div>
+    </CanvasContext.Provider>
   );
 };
 

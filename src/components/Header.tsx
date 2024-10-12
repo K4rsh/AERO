@@ -27,7 +27,11 @@ const Menu = () => {
               <div className="flex items-center justify-between w-full md:w-auto">
                 <a href="#">
                   <span className="sr-only">{companyName}</span>
-                  <img alt="logo" className="logo h-16 w-auto sm:h-16" src={logo} />
+                  <img
+                    alt="logo"
+                    className="logo h-12 w-auto sm:h-16" // Adjusted for mobile
+                    src={logo}
+                  />
                 </a>
                 <div className="-mr-2 flex items-center md:hidden">
                   <Popover.Button
@@ -43,7 +47,7 @@ const Menu = () => {
               {navigation.map((item) => (
                 <Link
                   spy={true}
-                  active="active"
+                  activeClass="active"
                   smooth={true}
                   duration={1000}
                   key={item.name}
@@ -53,7 +57,6 @@ const Menu = () => {
                   {item.name}
                 </Link>
               ))}
-              {/* Removed callToAction */}
             </div>
           </nav>
         </div>
@@ -86,7 +89,7 @@ const Menu = () => {
                 {navigation.map((item) => (
                   <Link
                     spy={true}
-                    active="active"
+                    activeClass="active"
                     smooth={true}
                     duration={1000}
                     key={item.name}
@@ -97,7 +100,6 @@ const Menu = () => {
                   </Link>
                 ))}
               </div>
-              {/* Removed callToAction */}
             </div>
           </Popover.Panel>
         </Transition>

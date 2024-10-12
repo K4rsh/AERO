@@ -1,5 +1,4 @@
 import React from 'react';
-
 import config from '../config/index.json';
 
 const formatLinkText = (text: string) => {
@@ -34,7 +33,7 @@ const Contact = () => {
               Other Helpful Links
             </h3>
           </div>
-          <ul className="text-left">
+          <ul className="w-full max-w-md text-left mx-auto">
             {Object.entries(links).map(([key, url]) => (
               <li key={key} className="mb-4">
                 <a

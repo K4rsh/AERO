@@ -1,11 +1,7 @@
 import React, { MutableRefObject, useEffect, useRef, useState } from 'react';
-
 import { motion, useAnimation } from 'framer-motion';
 
-function useOnScreen(
-  ref: MutableRefObject<HTMLDivElement | null>,
-  rootMargin = '0px'
-) {
+function useOnScreen(ref: MutableRefObject<HTMLDivElement | null>, rootMargin = '0px') {
   const [isIntersecting, setIntersecting] = useState(false);
 
   useEffect(() => {
@@ -25,7 +21,7 @@ function useOnScreen(
     return () => {
       observer.unobserve(currentRef);
     };
-  }, [ref, rootMargin]); // Empty array ensures that effect is only run on mount and unmount
+  }, [ref, rootMargin]);
 
   return isIntersecting;
 }
@@ -34,6 +30,7 @@ const LazyShow = ({ children }: { children: React.ReactChild }) => {
   const controls = useAnimation();
   const rootRef = useRef<HTMLDivElement>(null);
   const onScreen = useOnScreen(rootRef);
+  
   useEffect(() => {
     if (onScreen) {
       controls.start({
@@ -46,9 +43,10 @@ const LazyShow = ({ children }: { children: React.ReactChild }) => {
       });
     }
   }, [onScreen, controls]);
+  
   return (
     <motion.div
-      className="lazy-div"
+      className="lazy-div w-full"  // Ensures it takes full width
       ref={rootRef}
       initial={{ opacity: 0, x: -50 }}
       animate={controls}

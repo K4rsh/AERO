@@ -1,5 +1,4 @@
 import React from 'react';
-
 import config from '../config/index.json';
 
 const MainHero = () => {
@@ -13,13 +12,13 @@ const MainHero = () => {
       <div className="sm:text-center lg:text-left">
         <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
           <span className="block xl:inline">Atlantic</span>
-          <br className="sm:block hidden" />
+          <br className="hidden sm:block" />
           <span className="block xl:inline">Emergency</span>
-          <br className="sm:block hidden" />
+          <br className="hidden sm:block" />
           <span className="block xl:inline">Research</span>
-          <br className="sm:block hidden" />
+          <br className="hidden sm:block" />
           <span className="block xl:inline">Organization</span>
-          <br className="sm:block hidden" />
+          <br className="hidden sm:block" />
           <span className="block text-red-600 xl:inline">
             {mainHero.subtitle}
           </span>

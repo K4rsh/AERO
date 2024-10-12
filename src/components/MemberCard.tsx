@@ -33,11 +33,11 @@ export const MemberCard: React.FC<{ member: Member }> = ({ member }) => {
   };
 
   return (
-    <div className="m-6 flex flex-col items-center bg-white rounded-lg overflow-hidden shadow-lg">
+    <div className="m-4 flex flex-col items-center bg-white rounded-lg overflow-hidden shadow-lg w-full max-w-xs"> {/* Adjusted for responsiveness */}
       <img
         src={member.headshot}
         alt={member.name}
-        className="w-full h-64 object-contain" // Adjusted to cover the top part of the card fully
+        className="w-full h-64 object-cover" // Adjusted to cover the top part of the card fully
       />
       <div className="p-6">
         <h2 className="text-2xl font-semibold text-gray-800">{member.name}</h2>
