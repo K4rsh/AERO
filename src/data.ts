@@ -52,6 +52,14 @@ export const members = [
   }
   ,
   {
+    name: 'Dr. Kavish Chandra MSc MD CCFP(EM)',
+    headshot: '/assets/Headshots/DrKavishChandra.jpeg',
+    about: 'Dr. Kavish Chandra is an assistant professor of Emergency Medicine at Dalhousie University and an emergency physician in Saint John, New Brunswick. He is a Director of Research for Emergency Medicine Saint John, Chair of the Trauma NB Subcommittee on Research and current Chair for AERO (2024-2025). His research interests include Trauma, Resuscitation and Point of Care Ultrasound.More information about Dr. Chandra can be found at this [link].',
+    link: 'https://scholar.google.ca/citations?hl=en&pli=1&user=PCfvkO8AAAAJ',
+    publications: [],
+  }
+  ,
+  {
     name: 'Dr. Michael Parsons BSc MD FCFP(EM)',
     headshot: '/assets/Headshots/DrMikeParsons.jpg',
     about: '',
