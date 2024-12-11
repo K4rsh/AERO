@@ -10,6 +10,7 @@ import MainHeroImage from '../components/MainHeroImage';
 import { MembersList } from '../components/MemberCard';
 import RolesAndResponsibilities from '../components/RolesAndResponsibilities';
 import Vision from '../components/Vision';
+import Partners from '../components/Partners'
 
 const App = () => {
   return (
@@ -54,6 +55,13 @@ const App = () => {
           </div>
         </section>
       </LazyShow>
+
+      <LazyShow>
+        <section id="partners">
+          <Partners />
+        </section>
+      </LazyShow>
+
       <LazyShow>
         <section id="canvas">
           <Canvas />

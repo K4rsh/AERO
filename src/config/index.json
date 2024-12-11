@@ -25,6 +25,23 @@
       "href": "contact"
     }
   ],
+  "partners": [
+    {
+      "name": "Dalhousie Emergency Medicine",
+      "href": "https://medicine.dal.ca/departments/department-sites/emergency.html",
+      "logo": "/assets/images/Logo-Dal.png"
+    },
+    {
+      "name": "MUN Emergency Medicine",
+      "href": "https://www.mun.ca/medicine/emergencymedicine/",
+      "logo": "/assets/images/Logo-MUN.png"
+    },
+    {
+      "name": "UPEI Medicine",
+      "href": "https://www.upei.ca/medicine",
+      "logo": "/assets/images/Logo-PEI.png"
+    }
+  ],
   "mainHero": {
     "title": "Atlantic Emergency Research Organization (AERO)",
     "subtitle": "Improving Health in Atlantic Canada",
@@ -86,9 +103,15 @@
       "MUN Department of Emergency Medicine": "https://www.mun.ca/medicine/emergencymedicine/",
 
       "Dalhousie University Department of Emergency Medicine": "https://medicine.dal.ca/departments/department-sites/emergency.html",
-      "Saint John Regional Hospital": "https://sjrhem.ca",
+      "Saint John Emergency Medicine": "https://sjrhem.ca",
       "PEI Department of Emergency Medicine": "https://www.princeedwardisland.ca/en/information/health-pei/emergency-department-wait-times",
-      "IWK Department of Emergency Medicine": "https://iwkhealth.ca/clinics-programs-services/emergency-department"
+      "IWK Department of Emergency Medicine": "https://iwkhealth.ca/clinics-programs-services/emergency-department",
+      "PERC": "https://perc-canada.ca",
+      "Dalhousie Medicine – New Brunswick": "https://medicine.dal.ca/departments/core-units/DMNB/research.html",
+      "IMPART": "https://impart.team",
+      "Nova Scotia Health Innovation Hub": "https://innovationhub.nshealth.ca/research-methods-unit",
+      "Newfoundland and Labrador Health Services Research and Innovation": "https://ri.easternhealth.ca",
+      "CAEP": "https://caep.ca"
     }
   }
 }

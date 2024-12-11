@@ -60,9 +60,16 @@ export const members = [
   }
   ,
   {
+    name: "Dr. Paul Atkinson MB MA FRCPC",
+    headshot: '/assets/Headshots/DrPaulAtkinson.jpg',
+    about:'Dr. Paul Atkinson is a professor of Emergency Medicine and Assistant Dean Research at Dalhousie Medicine New Brunswick and former clinical academic head at Horizon Health Network in Saint John. He also serves as WorkSafeNB’s chief medical consultant, and deputy editor of the Canadian Journal of Emergency Medicine. He has international training at Queen’s University Belfast and postgraduate programs in internal medicine and emergency medicine in Belfast, Cambridge (UK), and a fellowship at Royal North Shore Hospital in Sydney (Australia). Dr. Atkinson has authored over 160 peer-reviewed publications and led three textbooks. His publications and interests can be found here at this [link].',
+    link: 'https://sjrhem.ca/team-member/dr-paul-atkinson/',
+    publications: [],
+  },
+  {
     name: 'Dr. Michael Parsons BSc MD FCFP(EM)',
     headshot: '/assets/Headshots/DrMikeParsons.jpg',
     about: '',
     publications: [],
-  },
+  }
 ];
