@@ -1,5 +1,3 @@
-import { link } from "fs";
-
 export const members = [
   {
     name: 'Dr. Gillian Sheppard MD FCFP(EM) DRCPSC POCUS',
