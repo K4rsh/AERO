@@ -6,6 +6,7 @@ class MyDocument extends Document {
     return (
       <Html lang={AppConfig.locale}>
         <Head>
+          <meta name="google-site-verification" content="IpO4aerloBI3BMSwDrjy4aar5CzFvPSOQh7Z9qTcvl0" />
           <meta charSet="UTF-8" />
           {/* Removed viewport meta tag from here */}
           <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
